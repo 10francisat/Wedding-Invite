@@ -33,8 +33,8 @@ export default function Home() {
           <Florals />
           <Hero />
           <Countdown />
-          <Story />
           <Events />
+          <Story />
           <EndBanner />
         </>
       )}
