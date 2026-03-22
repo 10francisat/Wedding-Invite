@@ -9,6 +9,7 @@ export default function EndBanner() {
         <p className="end-date">09 April 2026</p>
 
         <p className="end-credit">Made with love</p>
+        <p className="end-credit">Contact: 9446717230</p>
       </div>
     </section>
   );
