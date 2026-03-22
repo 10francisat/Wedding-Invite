@@ -32,10 +32,10 @@ export default function Story() {
 
   return (
     <section ref={storyRef} className="section">
-      <h2 style={{ fontSize: 32, marginBottom: 24 }}>Our Story</h2>
+      <h2 style={{ fontSize: 32, marginBottom: 24 }}>(Mathew 19:6)</h2>
       <p style={{ maxWidth: 440, lineHeight: 1.8 }}>
-        Two hearts, one journey.  
-        We invite you to celebrate love, laughter, and forever with us.
+        "So they are no longer two, but one.
+      Therefore what God has joined together, let man not separate."
       </p>
     </section>
   );

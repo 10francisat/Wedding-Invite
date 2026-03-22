@@ -33,12 +33,12 @@ export default function Events() {
 
   return (
   <section ref={eventsRef} className="section">
-    <h2 style={{ fontSize: 32, marginBottom: 24 }}>Wedding Details</h2>
+    <h2 style={{ fontSize: 32, marginBottom: 24 }}>Engagement</h2>
 
     {/* Ceremony */}
     <div style={{ marginBottom: 32 }}>
       <h3>Ceremony</h3>
-      <p>15 April 2026 · 11:30 AM</p>
+      <p>09 April 2026 · 12:00 PM</p>
       <p>St. Mary’s Church, Palluruthy</p>
 
       <a
@@ -54,8 +54,18 @@ export default function Events() {
     {/* Reception */}
     <div>
       <h3>Reception</h3>
-      <p>15 June 2026 · 2:00 PM</p>
-      <p>The Grand Hall</p>
+      <p>09 April 2026 · 1:00 PM</p>
+      <p>Auditorium at Brothers Of St.Cottolengo</p>
+
+      <a
+        href="https://www.google.com/maps?q=Cottolengo+Rd"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="map-link"
+      >
+        📍Location
+      </a>
+
     </div>
   </section>
 );

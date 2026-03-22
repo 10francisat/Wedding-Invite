@@ -35,7 +35,7 @@ export default function Hero() {
       >
         Theresa & Suman
       </h1>
-      <p style={{ fontSize: 18 }}>15 · 04 · 2026</p>
+      <p style={{ fontSize: 18 }}>09 · 04 · 2026</p>
     </section>
   );
 }
